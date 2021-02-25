@@ -6,8 +6,9 @@
 
 library(ggplot2)
 
-# Primero recordamos cuales son las variables que contiene el dataset
 
+# Primero recordamos cuales son las variables que contiene el dataset
+mtcars
 names(mtcars)
 
 # Graficamos las variables cyl en el eje x y hp en y, observa el comando geom_point()
